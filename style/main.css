@@ -2,20 +2,21 @@ body {
     background-color: #94D4D1;
 }
 
-main {
+.main {
     background-color: #FFFFFF;
     display: inline-block;
-    width: 80%;
+    width: 90%;
     height: 90%;
-    margin-left: 15%;
-    margin-top: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #FFFFFF;
     overflow: hidden;
-    padding-right: 15%;
+
+   
 }
 
 /* Style the links inside the navigation bar */
@@ -63,10 +64,14 @@ button:hover {
     display: inline-block;
     font-size: 16px;
     border-radius: 5px;
+  
 }
 
 .conteiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     background-color: #FFFFFF;
-    width: 400px;
-    height: 80opx;
+    display: inline-block;
+    border: solid 1px blue;
+    
 }
