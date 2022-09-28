@@ -34,11 +34,16 @@ body {
 }
 .button{
    display: inline-block;
-   padding-bottom: 70%;
+   padding-bottom: 0%;
    margin-top: 10%;
    margin-bottom: 0%;
    background-color: #999a91;
 }
+.left-bottom-img{
+    display: block;
+    background-color: #aea7ca;
+}
+
 button {
     background-color: #F04B2C;
     border: none;
