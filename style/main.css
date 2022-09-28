@@ -2,13 +2,33 @@ body {
     background-color: #94D4D1;
 }
 .main {
-    display: block;
-    width: 90%;
-    height: 90%;
-    margin-left: 5%;
-    margin-top: 5%;
+    display: inline-block;
+    width: 96%;
+    height: 91%;
+    margin-left: 2%;
+    margin-top: 8%;
     background-color: yellowgreen;
-    border: solid 1px #2504a7;
+}
+.Conteiner {
+    display: inline-block;
+    padding-left: 5%;
+  
+    /* background-color: #FFFFFF; */
+    background-color: #5c6112;
+}
+.welcom-text{
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+    padding-top: 0;
+    padding-bottom: 0%;
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+.content-text{
+    padding-top: 0;
+    padding-bottom: 20%;
+    margin-top: 1%;
 }
 button {
     background-color: #F04B2C;
@@ -34,22 +54,14 @@ button:hover {
 
 }
 
-.Conteiner {
-    display: inline-block;
-    background-color: #FFFFFF;
-}
-
-.image {
-    float: right;
-    border: solid 1px #a7040f;
-}
-
-
 /* Add a black background color to the top navigation */
 .topnav {
-
     background-color: #FFFFFF;
     overflow: hidden;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align:end;
+   
 }
 
 /* Style the links inside the navigation bar */
