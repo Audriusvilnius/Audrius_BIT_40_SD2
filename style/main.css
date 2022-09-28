@@ -42,12 +42,17 @@ body {
     margin-right: 65%;
     margin-bottom: -5%;
     background-color: #FFFF;
+    background-color: red;
 }
 .left-bottom-img{
-    display: block;
-    width: 30%;
-    padding-right: 22%;
+    display:block;
+    width: 25%;
+    padding-right: 25%;
     background-color: #FFFF;
+    background-color: red;
+    align-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
    
 }
 .cloud_1{
@@ -66,11 +71,11 @@ body {
 }
 .image-yoga{
     display: flex;
-    width: 51%;
+    width: 47%;
     float: right;
     padding-right: 0%;
     padding-left: 0%;
-    padding-top: 0%;
+    padding-top: 10%;
     background-color: #FFFF;
     background-color: #F04B2C;
     flex-direction: column-reverse;
