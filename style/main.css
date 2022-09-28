@@ -9,6 +9,8 @@ body {
     height: 90%;
     margin-left: 5%;
     margin-top: 5%;
+    background-color: yellowgreen;
+    border-color: solid 2px #2504a7 ;
 }
 
 /* Add a black background color to the top navigation */
@@ -69,9 +71,10 @@ button:hover {
 
 .conteiner {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
     background-color: #FFFFFF;
-    display: inline-block;
-    border: solid 1px blue;
+    display: inline;
+    
+    
     
 }
