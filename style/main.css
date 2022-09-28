@@ -1,21 +1,20 @@
 body {
-    background-color: #8BE1D8;
+    background-color: #94D4D1;
 }
 .main {
     display: inline-block;
     width: 80%;
-    /* height: 90%; */
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.2), 0 26px 40px 0 rgba(0, 0, 0, 0.19);
     margin-left: 10%;
     margin-top: 3%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #FFFF;
 }
 .Conteiner {
     display: inline-block;
     padding-left: 8%;
     margin-top: 10%;
-    background-color: #FFFF;
     
+    background-color: #FFFF;
 }
 .welcom-text{
     display: inline-block;
@@ -26,14 +25,12 @@ body {
     margin-top: 0;
     margin-bottom: 3%;
     background-color: #FFFF;
-    
 }
 .content-text{
     padding-top: 0%;
     padding-bottom: 0%;
     margin-top: 5%;
     background-color: #FFFF;
- 
 }
 .button{
     display: block;
@@ -43,18 +40,11 @@ body {
     margin-right: 65%;
     margin-bottom: -5%;
     background-color: #FFFF;
-   
 }
 .left-bottom-img{
-    display:block;
-    width: 25%;
-    padding-right: 25%;
+    display: block;
+    width: 30%;
     background-color: #FFFF;
-  
-    align-content: space-between;
-    align-items: flex-end;
-    flex-direction: column;
-   
 }
 .cloud_1{
   
@@ -72,14 +62,12 @@ body {
 }
 .image-yoga{
     display: flex;
-    width: 47%;
+    width: 60%;
     float: right;
-    padding-right: 0%;
+    padding-right: 0%; 
     padding-left: 0%;
-    padding-top: 10%;
+    padding-top: 3%;
     background-color: #FFFF;
-   
-    flex-direction: column-reverse;
 }
 
 
@@ -129,7 +117,7 @@ button:hover {
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
-    color: #F04B2C;
+    color: red;
 }
 /* Add a color to the active/current link */
 .topnav a.active {
