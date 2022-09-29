@@ -1,72 +1,87 @@
 body {
     background-color: #94D4D1;
 }
+
 .main {
     display: inline-block;
-    width: 80%;
+    width: 70%;
     box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.2), 0 26px 40px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 3%;
     background-color: #FFFF;
 }
+
 .Conteiner {
     display: inline-block;
     padding-left: 8%;
     margin-top: 10%;
-    
     background-color: #FFFF;
 }
-.welcom-text{
+
+.welcom-text {
     display: inline-block;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
     padding-top: 30%;
     padding-bottom: 0%;
     margin-top: 0;
     margin-bottom: 3%;
     background-color: #FFFF;
 }
-.content-text{
+
+.content-text {
     padding-top: 0%;
     padding-bottom: 0%;
     margin-top: 5%;
     background-color: #FFFF;
 }
-.button{
-    display: block;
-    padding-bottom: 0%;
-    margin-top: 2%;
-    margin-left: 8%;
-    margin-right: 65%;
-    margin-bottom: -5%;
-    background-color: #FFFF;
+
+.button {
+    display: inline-block;
+    padding-bottom: -5%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+
 }
-.left-bottom-img{
+
+.left-bottom-img {
     display: block;
-    width: 30%;
+    width: 20%;
+    padding-right: 22%;
     background-color: #FFFF;
+    align-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-left: 0%;
+    padding-top: 0%;
+
 }
-.cloud_1{
-  
+
+.cloud_1 {
+
     background-color: #F04B2C;
     margin-right: 40%;
 
-}.cloud_2{
-     
-    padding-right: 0%; 
+}
+
+.cloud_2 {
+
+    padding-right: 0%;
     padding-left: 0%;
     padding-top: 0%;
-   
     background-color: #F04B2C;
 
 }
-.image-yoga{
+
+.image-yoga {
     display: flex;
-    width: 60%;
+    width: 50%;
     float: right;
-    padding-right: 0%; 
+    padding-right: 0%;
     padding-left: 0%;
-    padding-top: 3%;
+    padding-top: 10%;
     background-color: #FFFF;
 }
 
@@ -75,22 +90,23 @@ button {
     background-color: #F04B2C;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 5px;
 }
+
 button:hover {
     background-color: #2504a7;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 5px;
 }
 
@@ -100,25 +116,27 @@ button:hover {
     overflow: hidden;
     padding-top: 1%;
     padding-bottom: 1%;
-    text-align:end;
-   
+    text-align: end;
+
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    /* float: right; */
+
     color: black;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 12px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
-    color: red;
+    background-color: #F04B2C;
+    color: #fff;
 }
+
 /* Add a color to the active/current link */
 .topnav a.active {
     background-color: #04AA6D;
