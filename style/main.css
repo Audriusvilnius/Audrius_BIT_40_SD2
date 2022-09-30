@@ -124,7 +124,6 @@ button:hover {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-
     color: black;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -138,8 +137,6 @@ button:hover {
     text-decoration: underline;
     text-decoration-color: #F04B2C;
     text-decoration-thickness: 3px;
-    /* background-color: #F04B2C; */
-    /* color: #fff; */
 }
 
 /* Add a color to the active/current link */
