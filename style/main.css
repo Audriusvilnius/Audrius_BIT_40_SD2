@@ -3,11 +3,12 @@ body {
 }
 
 .main {
+    width: 1200px;
+    margin-left: calc(50% - 600px);
+    margin-top: 20px;
     display: inline-block;
-    width: 70%;
+    /* width: 70%; */
     box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.2), 0 26px 40px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 15%;
-    margin-top: 3%;
     background-color: #FFFF;
 }
 span{
@@ -15,8 +16,8 @@ span{
 }
 .Conteiner {
     display: inline-block;
-    padding-left: 8%;
-    margin-top: 10%;
+    padding-left: 10%;
+    margin-top: 6%;
     background-color: #FFFF;
 }
 
@@ -24,7 +25,7 @@ span{
     display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: xx-large;
-    padding-top: 30%;
+    padding-top: 0%;
     padding-bottom: 0%;
     margin-top: 0;
     margin-bottom: 3%;
@@ -50,30 +51,35 @@ span{
 
 .left-bottom-img {
     display: block;
-    width: 20%;
-    padding-right: 22%;
+    width: 30%;
+    padding-right: 10%;
     background-color: #FFFF;
     align-content: space-between;
     align-items: flex-end;
     flex-direction: column;
     padding-left: 0%;
-    padding-top: 0%;
+    padding-top: 2%;
 
 }
 
 .cloud_1 {
-
-    background-color: #F04B2C;
-    margin-right: 40%;
+    float: right;
+    width: 35%;
+    display: flow-root;
+    /* padding-left: 10%; */
+    padding-right: 5%;
+    /* padding-left: 0%; */
+    padding-top: 0%;
 
 }
 
 .cloud_2 {
-
+    width: 15%;
+    display: flow-root;
+    padding-left: 60%;
     padding-right: 0%;
-    padding-left: 0%;
-    padding-top: 0%;
-    background-color: #F04B2C;
+    /* padding-left: 0%; */
+    padding-top: 1%;
 
 }
 
@@ -83,7 +89,7 @@ span{
     float: right;
     padding-right: 0%;
     padding-left: 0%;
-    padding-top: 10%;
+    padding-top: 0%;
     background-color: #FFFF;
 }
 
