@@ -7,17 +7,18 @@ body {
     margin-left: calc(50% - 600px);
     margin-top: 20px;
     display: inline-block;
-    /* width: 70%; */
     box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.2), 0 26px 40px 0 rgba(0, 0, 0, 0.19);
     background-color: #FFFF;
 }
-span{
+
+span {
     color: #F04B2C;
 }
+
 .Conteiner {
     display: inline-block;
     padding-left: 10%;
-    margin-top: 6%;
+    margin-top: 3%;
     background-color: #FFFF;
 }
 
@@ -46,7 +47,6 @@ span{
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 0%;
-
 }
 
 .left-bottom-img {
@@ -59,18 +59,14 @@ span{
     flex-direction: column;
     padding-left: 0%;
     padding-top: 2%;
-
 }
 
 .cloud_1 {
     float: right;
     width: 35%;
     display: flow-root;
-    /* padding-left: 10%; */
     padding-right: 5%;
-    /* padding-left: 0%; */
     padding-top: 0%;
-
 }
 
 .cloud_2 {
@@ -78,9 +74,7 @@ span{
     display: flow-root;
     padding-left: 60%;
     padding-right: 0%;
-    /* padding-left: 0%; */
     padding-top: 1%;
-
 }
 
 .image-yoga {
@@ -92,7 +86,6 @@ span{
     padding-top: 0%;
     background-color: #FFFF;
 }
-
 
 button {
     background-color: #F04B2C;
@@ -107,7 +100,7 @@ button {
 }
 
 button:hover {
-    background-color: #2504a7;
+    background-color: #F04B2C;
     border: none;
     color: white;
     padding: 10px 32px;
@@ -116,6 +109,7 @@ button:hover {
     display: inline-block;
     font-size: 12px;
     border-radius: 5px;
+    opacity: 0.7;
 }
 
 /* Add a black background color to the top navigation */
@@ -125,7 +119,7 @@ button:hover {
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: end;
-
+    margin-right: 7%;
 }
 
 /* Style the links inside the navigation bar */
@@ -142,8 +136,8 @@ button:hover {
 /* Change the color of links on hover */
 .topnav a:hover {
     text-decoration: underline;
-    text-decoration-color:  #F04B2C;
-    text-decoration-thickness: 3px;  
+    text-decoration-color: #F04B2C;
+    text-decoration-thickness: 3px;
     /* background-color: #F04B2C; */
     /* color: #fff; */
 }
