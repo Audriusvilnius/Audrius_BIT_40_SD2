@@ -10,7 +10,9 @@ body {
     margin-top: 3%;
     background-color: #FFFF;
 }
-
+span{
+    color: #F04B2C;
+}
 .Conteiner {
     display: inline-block;
     padding-left: 8%;
@@ -133,8 +135,11 @@ button:hover {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #F04B2C;
-    color: #fff;
+    text-decoration: underline;
+    text-decoration-color:  #F04B2C;
+    text-decoration-thickness: 3px;  
+    /* background-color: #F04B2C; */
+    /* color: #fff; */
 }
 
 /* Add a color to the active/current link */
