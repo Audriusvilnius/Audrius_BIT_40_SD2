@@ -1,11 +1,11 @@
+
 body {
     background-color: #94D4D1;
+    position: relative;
 }
 
 .main {
-    width: 1200px;
-    margin-left: calc(50% - 600px);
-    margin-top: 20px;
+    width: 100%;
     display: inline-block;
     box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.2), 0 26px 40px 0 rgba(0, 0, 0, 0.19);
     background-color: #FFFF;
@@ -42,7 +42,7 @@ span {
 
 .button {
     display: inline-block;
-    padding-bottom: -5%;
+    /* padding-bottom: -5%; */
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0%;
@@ -51,7 +51,7 @@ span {
 
 .left-bottom-img {
     display: block;
-    width: 30%;
+    width: 20%;
     padding-right: 10%;
     background-color: #FFFF;
     align-content: space-between;
@@ -79,7 +79,7 @@ span {
 
 .image-yoga {
     display: flex;
-    width: 50%;
+    width: 40%;
     float: right;
     padding-right: 0%;
     padding-left: 0%;
@@ -143,4 +143,16 @@ button:hover {
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+@media  (max-width: 1200px){
+    .left-bottom-img{
+        position: fixed;
+        opacity: calc(1 - 1);
+    }
+    .image-yoga{
+        width: 40%;
+
+    }
+    
 }
