@@ -6,8 +6,6 @@ body {
 
 .main {
     width: 100%;
-   
-    transform: translateX(50% 50%);
     display: inline-block;
     box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.2), 0 26px 40px 0 rgba(0, 0, 0, 0.19);
     background-color: #FFFF;
